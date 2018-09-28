@@ -222,9 +222,6 @@
         tooltip: {
             trigger: 'axis'
         },
-        legend: {
-            data: ['离婚率']
-        },
         toolbox: {
             show: true,
             feature: {
