@@ -1,0 +1,68 @@
+
+html, body {
+    color: black;
+    font-size: 14PX;
+}
+
+.articlebox {
+    margin: 0 auto;
+    width: 640px;
+}
+
+.headerbox {
+    margin: 20px auto;
+}
+
+.headerbox h1 {
+    font-size: 28px;
+    line-height: 40px;
+
+}
+
+.headerbox div {
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.headerbox div span:nth-of-type(1) {
+    color: #576b95;
+}
+
+.headerbox div span:nth-of-type(2) {
+    color: #AAA;
+    margin-left: 10px;
+}
+
+.mainbox p {
+    margin-top: 10px;
+    text-indent: 20px;
+    line-height: 30px;
+}
+.mainbox h2{
+    color:brown;
+}
+
+.mainbox img {
+    margin: 16px 0;
+    width: 100%;
+}
+
+.mainbox .echarts {
+    margin: 10px auto;
+    height: 400px;
+}
+
+@media all and (max-width: 640px) {
+    .articlebox {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .mainbox .echarts {
+        height: 260px;
+    }
+}
+
+
+
